@@ -6,7 +6,7 @@ The pipeline automatically deploys the new version and verifies whether it is su
 
 ---
 
-## 📌 What This Project Solves
+##  What This Project Solves
 
 Manual deployment problems:
 
@@ -18,7 +18,7 @@ This pipeline removes all manual work.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Developer Push → GitHub → Jenkins → SSH → EC2 → PM2 Restart → Version Check
@@ -26,7 +26,7 @@ Developer Push → GitHub → Jenkins → SSH → EC2 → PM2 Restart → Versio
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 * Jenkins (Pipeline)
 * Node.js (Express)
@@ -210,7 +210,7 @@ If match → Deployment success ✅
 
 ---
 
-## 🔁 How To Release New Version
+##  How To Release New Version
 
 Change version:
 
@@ -230,7 +230,7 @@ Jenkins auto deploys 🚀
 
 ---
 
-## 🧠 DevOps Concepts Demonstrated
+##  DevOps Concepts Demonstrated
 
 * CI/CD Pipeline
 * SSH Automation
@@ -241,10 +241,12 @@ Jenkins auto deploys 🚀
 
 ---
 
-## 📍 Application URL
+##  Application URL
 
 ```
 http://<public-ip>:3000
-``
-`
-<img width="1366" height="768" alt="version-change-1 1" src="https://github.com/user-attachments/assets/c674576e-4065-46dd-9e80-27b4e359c47e" />
+```
+
+---
+<img width="1366" height="768" alt="version-change-1 1" src="https://github.com/user-attachments/assets/50d8ca5c-4537-406a-8a50-3d19b95c672f" />
+
