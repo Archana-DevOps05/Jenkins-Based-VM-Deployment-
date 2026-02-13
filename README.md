@@ -200,19 +200,13 @@ If match → Deployment success ✅
 
 ---
 
-## 🖼️ Screenshots
-
 ### Pipeline Success
 
-![Pipeline](screenshots/pipeline-success.png)
+<img width="1366" height="768" alt="Sucessfull" src="https://github.com/user-attachments/assets/e874f48c-ed1d-4424-8734-56b3ee4d33fd" />
 
 ### Stage View
 
-![Stages](screenshots/stage-view.png)
-
-### Application UI
-
-![UI](screenshots/app-ui.png)
+<img width="1366" height="768" alt="stage-view" src="https://github.com/user-attachments/assets/a4a83652-3be0-4fa2-9bcf-8642319dd253" />
 
 ---
 
@@ -221,14 +215,14 @@ If match → Deployment success ✅
 Change version:
 
 ```
-version.txt → v1.2
+version.txt → v1.1
 ```
 
 Push:
 
 ```bash
 git add .
-git commit -m "release v1.2"
+git commit -m "release v1.1"
 git push
 ```
 
@@ -251,10 +245,6 @@ Jenkins auto deploys 🚀
 
 ```
 http://<public-ip>:3000
-```
-
----
-
-## 👩‍💻 Author
-
-Archana Singh
+``
+`
+<img width="1366" height="768" alt="version-change-1 1" src="https://github.com/user-attachments/assets/c674576e-4065-46dd-9e80-27b4e359c47e" />
