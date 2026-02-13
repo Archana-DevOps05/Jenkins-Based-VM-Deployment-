@@ -1,0 +1,10 @@
+<h2>My Jenkins VM Deployment Project</h2>
+<p id="v"></p>
+
+<script>
+fetch("/version")
+.then(res => res.json())
+.then(data => {
+  document.getElementById("v").innerText = "Version: " + data.version;
+});
+</script>
